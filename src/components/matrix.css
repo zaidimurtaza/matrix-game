@@ -1,0 +1,44 @@
+
+body{
+    background-color: #1d2942;
+}
+.box {
+    width: min(400px, 90vw);
+    height: min(400px, 90vw);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #a163f1;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 9px;
+}
+
+
+.box-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #58d996;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.clicked {
+    background-color: #22c55e;
+}
+
+.reset {
+    padding: 10px 20px;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
